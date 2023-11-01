@@ -1,0 +1,15 @@
+ Some basic commands
+ 
+ kubectl get pod
+ kubectl get pod - o wide
+ kubectl describe pod
+ kubectl get pod - o yaml
+ kubectl logs [ pod_name]
+ kubectl logs -- since=1h [ pod_name]
+ kubectl logs -- tail=20 [ pod_name]
+ kubectl logs -f -c [ cont ai ner _name][ pod_name]
+ kubectl logs [ pod_name] > pod.log
+ kubectl get no
+ kubectl get no - o wide
+ kubectl describe no
+ kubectl get no - o yaml
